@@ -12,15 +12,6 @@
     box-sizing:border-box;
 }
 
-    img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    border-radius:50%;
-    border:5px solid white;
-    margin-bottom:20px;
-}
-
 body{
     font-family:Arial, sans-serif;
     background:linear-gradient(135deg,#ff758c,#ff7eb3);
@@ -30,7 +21,16 @@ body{
 }
 
 .container{
-    margin-top:100px;
+    margin-top:80px;
+}
+
+img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:20px;
 }
 
 h1{
@@ -80,9 +80,9 @@ button:hover{
 
 <div class="container">
 
-<img src="photo.jpg" alt="My Love">
+    <img src="photo.jpg" alt="My Love">
 
-<h1>🎂 Happy Birthday My POTATO ❤️</h1>
+    <h1>🎂 Happy Birthday My POTATO ❤️</h1>
 
     <p>
         Every day with you is a beautiful gift.<br>
@@ -90,6 +90,7 @@ button:hover{
     </p>
 
     <button onclick="showMessage()">Open Surprise 🎁</button>
+
 </div>
 
 <script>
@@ -109,5 +110,3 @@ for(let i=0;i<30;i++){
 
 </body>
 </html>
-<div class="container">
-    <img src="photo.jpg" alt="My Love">
